@@ -1,7 +1,7 @@
 <div align="center">
   
   ![GitHub repo size](https://img.shields.io/github/repo-size/joesef127/TourBeta)
-  [![Twitter Follow](https://img.shields.io/twitter/follow/joesef127?style=social)](https://twitter.com/intent/follow?screen_name=joesef127)
+  [![Twitter Follow](https://img.shields.io/twitter/follow/merlinhive?style=social)](https://twitter.com/intent/follow?screen_name=merlinhive)
 
 </div>
 
