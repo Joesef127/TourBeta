@@ -30,9 +30,10 @@ What this is:
 
 ### Screenshot
 
-![](./screenshots/tourbeta-desktop.png)
+![](./screenshots/tourbeta-desktop.jpg)
 ![](./screenshots/tourbeta%20-%20mobile.png)
 ![](/screenshots/tourbeta%20-%20tablet.png)
+![](/screenshots/tourbeta%20-%20tablet%20&%20mobile.png)
 
 ## My process
 
