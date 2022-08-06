@@ -14,7 +14,6 @@
   - [Screenshot](#screenshot)
 - [My process](#my-process)
   - [Built with](#built-with)
-- [Contact](#Contact)
 - [License](#License)
 
 
@@ -49,10 +48,6 @@ What this is:
 - CSS custom properties
 - Flex and grid
 - Javascript
-
-### Contact
-
-If you want to contact with me you can reach me at [Twitter](https://www.twitter.com/merlinhive).
 
 ### License
 
