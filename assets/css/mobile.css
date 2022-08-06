@@ -1,0 +1,190 @@
+@import url(/assets/css/style.css);
+
+@media screen and (max-width: 940px) {
+  /* header */
+
+  .container {
+    padding-inline: 3rem;
+  }
+
+  .header {
+    background-color: var(--viridian-green);
+    padding-block: 20px;
+    height: 88px;
+    /* overflow: hidden; */
+    transition: 0.25s var(--cubic-out);
+    align-items: start;
+    position: relative;
+  }
+  
+  .header.active {
+    height: fit-content;
+    transition-delay: 0.35s;
+  }
+
+  .nav-toggle-btn.active .open,
+  .nav-toggle-btn .close {display: none;}
+  
+  .nav-toggle-btn .open,
+  .nav-toggle-btn.active .close {display: block;}
+  
+  .nav-toggle-btn {
+    background: transparent;
+    border: none;
+    display: flex;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    transition: all var(--transition-2);
+  }
+
+  .nav-toggle-btn.active {
+    position: absolute;
+    top: 10%;
+    right: 10%;
+  }
+  
+  .nav-toggle-btn ion-icon {
+    color: var(--white-1);
+    font-size: 2.25rem;
+    font-weight: 700;
+  }
+
+  #headerContainer {
+    flex-direction: column;
+    gap: 1.5rem;
+    display: block;
+    padding: 0;
+  }
+
+  .navlist {
+    flex-direction: column;
+    display: block;
+    margin: 1rem 0;
+  }
+
+  .navlist li, .navlist .navlink {
+    width: fit-content;
+    text-align: center;
+  }
+
+  .navbar {
+    /* display: block; */
+    width: 100%;
+    flex-direction: column;
+    visibility: hidden;
+    opacity: 0;
+    transition: var(--transition-1);
+  }
+
+  .header.active .navbar {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  /* hero section */
+  .heroContent {
+    flex-direction: column;
+  }
+
+  .spinningIcons {
+    display: none;
+  }
+
+  /* section four - about us */
+  .aboutUs {
+    margin: 0;
+  }
+
+  #aboutUsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .aboutInfo {
+    max-width: none;
+    width: 100%;
+  }
+
+  .aboutHeading .sectionSubtitle, .aboutHeading .sectionTitle {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 760px) {
+
+  .container {
+    /* padding-inline: 7rem; */
+    width: 100%;
+  }
+
+  /* section two - destination */
+  .bigCard {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bigCard .imageCover {
+    height: auto;
+  }
+
+  .smallCard {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .smallCard .imageCover {
+    height: auto;
+  }
+
+  /* section three - tour */
+  .tourList {
+    gap: 1.3rem;
+    flex-direction: column;
+  }
+
+  .tourList .tourCard {
+    width: 100%;
+  }
+
+  /* section four - about us */
+  #aboutUsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .aboutInfo {
+    max-width: none;
+    width: 100%;
+  }
+
+  .aboutHeading .sectionSubtitle, .aboutHeading .sectionTitle {
+    text-align: center;
+  }
+
+  /* section five - blog */
+  .blogList {
+    gap: 1.3rem;
+    flex-direction: column;
+  }
+
+  .blogList .blogCard {
+    width: 100%;
+  }
+
+  /* footer */
+  .footerTop {
+    grid-template-columns: 1fr 1fr; 
+    gap: 1.3rem;
+  }
+
+  .footerBottom {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
