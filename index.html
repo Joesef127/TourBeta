@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TourBeta - Explore the world</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/mobile.css">
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comforter+Brush&family=Heebo:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body id="top">
+    <div class="wrapper">
+      <!-- header -->
+      <header class="header" data-header>
+        <div class="container" id="headerContainer">
+          <a href="#logo">
+            <h1 id="logo" class="logo">TourBeta</h1>
+          </a>
+
+          <!-- hamburger icon -->
+          <button
+            class="nav-toggle-btn"
+            data-nav-toggle-btn
+            aria-label="Toggle Menu"
+          >
+            <ion-icon name="menu-outline" class="open"></ion-icon>
+            <ion-icon name="close-outline" class="close"></ion-icon>
+          </button>
+
+          <nav class="navbar">
+            <ul class="navlist">
+              <li>
+                <a href="#heroSection" class="navlink">Home</a>
+              </li>
+              <li>
+                <a href="#destinations" class="navlink">Destinations</a>
+              </li>
+              <li>
+                <a href="#tours" class="navlink">Tours</a>
+              </li>
+              <li>
+                <a href="#aboutUs" class="navlink">About Us</a>
+              </li>
+              <li>
+                <a href="#blog" class="navlink">Blog</a>
+              </li>
+              <li>
+                <a href="#contact" id="contact" class="navlink">Contact Us</a>
+              </li>
+            </ul>
+            <a href="#bookNow" class="button" id="bookNow">Booking Now</a>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <article>
+          <!-- firstSection - hero section -->
+          <section class="heroSection" id="heroSection">
+            <div class="container">
+              <!-- spinning icons -->
+              <div class="spinningIcons">
+                <img
+                  src="./assets/images/shape-1.png"
+                  width="61"
+                  height="61"
+                  alt="vector shape"
+                  class="vectorIcon icon1"
+                />
+
+                <img
+                  src="./assets/images/shape-2.png"
+                  width="56"
+                  height="74"
+                  alt="vector shape"
+                  class="vectorIcon icon2"
+                />
+
+                <img
+                  src="./assets/images/shape-3.png"
+                  width="57"
+                  height="72"
+                  alt="vector shape"
+                  class="vectorIcon icon3"
+                />
+              </div>
+
+              <!-- hero section -->
+              <div class="heroContent">
+                <div class="heroInfo">
+                  <p class="sectionSubtitle">Explore Your Travel</p>
+                  <h1 class="heroTitle">Trusted Travel Agency</h1>
+                  <p class="heroText">
+                    I travel not to go anywhere, but to go. I travel for
+                    travel's sake the great affair is to move.
+                  </p>
+                  <div class="heroButtons">
+                    <a
+                      href="#contactUs"
+                      class="button primaryButton"
+                      id="contactUs"
+                      >Contact Us</a
+                    >
+                    <a href="#learnMore" class="button" id="learnMore"
+                      >Learn More</a
+                    >
+                  </div>
+                </div>
+                <figure class="heroImage">
+                  <img
+                    src="./assets/images/hero-banner.png"
+                    width="450"
+                    loading="lazy"
+                    alt="man resting on travel bag"
+                    class="hero"
+                  />
+                </figure>
+              </div>
+            </div>
+          </section>
+
+          <!-- second section - destinations -->
+          <section class="destinations" id="destinations">
+            <div class="container">
+              <div class="sectionHeading">
+                <p class="sectionSubtitle">Destinations</p>
+                <h2 class="sectionTitle">Choose Your Place</h2>
+              </div>
+              <!-- destination images -->
+              <div class="destinationDivs">
+                <!-- <div class="bigCard"> -->
+                  <ul class="bigCard">
+                    <!-- maldives -->
+                    <li>
+                      <a
+                        href="#destinationCard1"
+                        class="destinationCard"
+                        id="destinationCard1"
+                      >
+                        <figure class="destination" id="maldives">
+                          <img
+                            src="./assets/images/destination-1.jpg"
+                            alt="maldives"
+                            width="474"
+                            height="464"
+                            loading="lazy"
+                            class="imageCover"
+                          />
+                          <div class="cardContent">
+                            <p class="cardSubtitle">Malé</p>
+                            <h3 class="cardTitle">Maldives</h3>
+                          </div>
+                        </figure>
+                      </a>
+                    </li>
+    
+                    <!-- thailand -->
+                    <li>
+                      <a
+                        href="#destinationCard2"
+                        class="destinationCard"
+                        id="destinationCard2"
+                      >
+                        <figure class="destination" id="thailand">
+                          <img
+                            src="./assets/images/destination-2.jpg"
+                            alt="thailand"
+                            width="474"
+                            height="464"
+                            loading="lazy"
+                            class="imageCover"
+                          />
+                          <div class="cardContent">
+                            <p class="cardSubtitle">Bangkok</p>
+                            <h3 class="cardTitle">Thailand</h3>
+                          </div>
+                        </figure>
+                      </a>
+                    </li>
+                  </ul>
+                <!-- </div> -->
+
+                <!-- <div class="smallCard"> -->
+                  <ul class="smallCard">
+                    <!-- malaysia -->
+                    <li>
+                      <a
+                        href="#destinationCard3"
+                        class="destinationCard"
+                        id="destinationCard3"
+                      >
+                        <figure class="destination" id="malaysia">
+                          <img src="./assets/images/destination-3.jpg"
+                          alt="malaysia"
+                          width="300"
+                          height="152" 
+                          loading="lazy" 
+                          class="imageCover"
+                          />
+                          <div class="cardContent">
+                            <p class="cardSubtitle">Kuala Lumpur</p>
+                            <h3 class="cardTitle">Malaysia</h3>
+                          </div>
+                        </figure>
+                      </a>
+                    </li>
+    
+                    <!-- nepal -->
+                    <li>
+                      <a
+                        href="#destinationCard4"
+                        class="destinationCard"
+                        id="destinationCard4"
+                      >
+                        <figure class="destination" id="nepal">
+                          <img
+                            src="./assets/images/destination-4.jpg"
+                            alt="nepal"
+                            width="300"
+                            height="152"
+                            loading="lazy"
+                            class="imageCover"
+                          />
+                          <div class="cardContent">
+                            <p class="cardSubtitle">Kathmandu</p>
+                            <h3 class="cardTitle">Nepal</h3>
+                          </div>
+                        </figure>
+                      </a>
+                    </li>
+                    
+                    <!-- indonesia -->
+                    <li>
+                      <a
+                        href="#destinationCard5"
+                        class="destinationCard"
+                        id="destinationCard5"
+                      >
+                        <figure class="destination" id="indonesia">
+                          <img
+                            src="./assets/images/destination-5.jpg"
+                            alt="indonesia"
+                            width="300"
+                            height="152"
+                            loading="lazy"
+                            class="imageCover"
+                          />
+                          <div class="cardContent">
+                            <p class="cardSubtitle">Jakarta</p>
+                            <h3 class="cardTitle">Indonesia</h3>
+                          </div>
+                        </figure>
+                      </a>
+                    </li>
+                  </ul>
+                <!-- </div> -->
+              </div>
+            </div>
+          </section>
+
+          <!-- third section - featured tours -->
+          <section class="tours" id="tours">
+            <div class="container">
+              <div class="sectionHeading">
+                <p class="sectionSubtitle">Featured Tours</p>
+                <h2 class="sectionTitle">Most Popular Tours</h2>
+              </div>
+
+              <ul class="tourList">
+                <li class="tourCard">
+                  <a href="#tourImage" class="tourImage" id="tourImage">
+                    <figure class="imageContainer">
+                      <img
+                        src="./assets/images/popular-1.jpg"
+                        alt="mountain image"
+                        width="340"
+                        loading="lazy"
+                      />
+                    </figure>
+                  </a>
+                  <span class="tourDays">
+                    <ion-icon name="time-outline" class="clock"></ion-icon>
+
+                    <time datetime="P12D" class="cardText">12 Days</time>
+                  </span>
+                  <div class="tourInfo">
+                    <div class="tourRating">
+                      <p class="tourPricing">From $50.00</p>
+                      <div class="starRating">
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star-outline" class="star"></ion-icon>
+                        <data value="4" class="starNumber">(4)</data>
+                      </div>
+                    </div>
+                    <a href="#tourText" id="tourText">
+                      <p class="tourText">
+                        A good traveler has no fixed plans and is not intent on
+                        arriving.
+                      </p>
+                    </a>
+                    <p class="tourPlace">Kuala Lumpur, Malaysia</p>
+                  </div>
+                </li>
+                <li class="tourCard">
+                  <a href="#tourImage" class="tourImage" id="tourImage">
+                    <figure class="imageContainer">
+                      <img
+                        src="./assets/images/popular-2.jpg"
+                        alt="mountain image"
+                        width="340"
+                        loading="lazy"
+                      />
+                    </figure>
+                  </a>
+                  <span class="tourDays">
+                    <ion-icon name="time-outline" class="clock"></ion-icon>
+
+                    <time datetime="P12D" class="cardText">12 Days</time>
+                  </span>
+                  <div class="tourInfo">
+                    <div class="tourRating">
+                      <p class="tourPricing">From $50.00</p>
+                      <div class="starRating">
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star-outline" class="star"></ion-icon>
+                        <data value="4" class="starNumber">(4)</data>
+                      </div>
+                    </div>
+                    <a href="#tourText" id="tourText">
+                      <p class="tourText">
+                        A good traveler has no fixed plans and is not intent on
+                        arriving.
+                      </p>
+                    </a>
+                    <p class="tourPlace">Malé, Maldives</p>
+                  </div>
+                </li>
+                <li class="tourCard">
+                  <a href="#tourImage" class="tourImage" id="tourImage">
+                    <figure class="imageContainer">
+                      <img
+                        src="./assets/images/popular-3.jpg"
+                        alt="mountain image"
+                        width="340"
+                        loading="lazy"
+                      />
+                    </figure>
+                  </a>
+                  <span class="tourDays">
+                    <ion-icon name="time-outline" class="clock"></ion-icon>
+
+                    <time datetime="P12D" class="cardText">12 Days</time>
+                  </span>
+                  <div class="tourInfo">
+                    <div class="tourRating">
+                      <p class="tourPricing">From $50.00</p>
+                      <div class="starRating">
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star" class="star"></ion-icon>
+                        <ion-icon name="star-outline" class="star"></ion-icon>
+                        <data value="4" class="starNumber">(4)</data>
+                      </div>
+                    </div>
+                    <a href="#tourText" id="tourText">
+                      <p class="tourText">
+                        A good traveler has no fixed plans and is not intent on
+                        arriving.
+                      </p>
+                    </a>
+                    <p class="tourPlace">Jakarta, Indonesia</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+
+          <!-- fourth section - about us -->
+          <section class="aboutUs" id="aboutUs">
+            <div class="container" id="aboutUsContainer">
+              <div class="aboutInfo">
+                <div class="sectionHeading aboutHeading">
+                  <p class="sectionSubtitle">About us</p>
+                  <h2 class="sectionTitle">
+                    Explore all tour of the world with us
+                  </h2>
+                </div>
+                <!-- <div class="aboutTextDiv"> -->
+                <p class="aboutText">
+                  Lorem Ipsum available, but the majority have suffered
+                  alteration in some form, by injected humour, or randomized
+                  words which don't look even slightly believable.
+                </p>
+                <!-- </div> -->
+                <div class="aboutTypes">
+                  <div class="aboutType">
+                    <div class="aboutIcon">
+                      <ion-icon name="compass"></ion-icon>
+                    </div>
+                    <div class="aboutTypeInfo">
+                      <h3 class="aboutTypeTitle">Tour Guide</h3>
+                      <p class="aboutTypeText">
+                        Lorem Ipsum available, but the majority have suffered
+                        alteration in some.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="aboutType midAbout">
+                    <div class="aboutIcon">
+                      <ion-icon name="briefcase"></ion-icon>
+                    </div>
+                    <div class="aboutTypeInfo">
+                      <h3 class="aboutTypeTitle">Friendly Price</h3>
+                      <p class="aboutTypeText">
+                        Lorem Ipsum available, but the majority have suffered
+                        alteration in some.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="aboutType">
+                    <div class="aboutIcon">
+                      <ion-icon name="umbrella"></ion-icon>
+                    </div>
+                    <div class="aboutTypeInfo">
+                      <h3 class="aboutTypeTitle">Reliable Tour</h3>
+                      <p class="aboutTypeText">
+                        Lorem Ipsum available, but the majority have suffered
+                        alteration in some.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <a
+                  href="#bookingNow"
+                  class="button primaryButton"
+                  id="bookingNow"
+                  >Booking Now</a
+                >
+              </div>
+              <figure class="aboutImage">
+                <img
+                  src="./assets/images/about-banner.png"
+                  alt="man and travel bag"
+                  loading="lazy"
+                  width="600"
+                  height="auto"
+                />
+              </figure>
+            </div>
+          </section>
+
+          <!-- fifth section - blog posts -->
+          <section class="blog" id="blog">
+            <div class="container">
+              <div class="sectionHeading" id="blogHeading">
+                <p class="sectionSubtitle">From The Blog Post</p>
+                <h2 class="sectionTitle">Latest News & Articles</h2>
+              </div>
+              <ul class="blogList">
+                <li class="blogCard">
+                  <a href="#blogImage" class="blogImage" id="blogImage">
+                    <figure class="imageContainer">
+                      <img
+                        src="./assets/images/popular-1.jpg"
+                        alt="mountain image"
+                        width="340"
+                        loading="lazy"
+                      />
+                    </figure>
+                  </a>
+                  <span class="blogDate">
+                    <ion-icon name="time-outline" class="clock"></ion-icon>
+                    <time datetime="12-04" class="cardText">04 Dec</time>
+                  </span>
+                  <div class="blogInfo">
+                    <div class="authorDiv">
+                      <div class="authorInfo">
+                        <figure class="authorAvatar">
+                          <img
+                            src="./assets/images/author-avatar.png"
+                            alt="author avatar"
+                            loading="lazy"
+                            width="30"
+                            height="30"
+                            class="authorImage"
+                          />
+                        </figure>
+                        <div class="authorIntro">
+                          <a
+                            href="#authorName"
+                            class="authorName"
+                            id="authorName"
+                          >
+                            Jony Bristow
+                          </a>
+                          <p class="authorRole">Admin</p>
+                        </div>
+                      </div>
+                      <time datetime="10:30" class="blogTime"> 10:30 AM </time>
+                    </div>
+                    <a href="#blogText" id="blogText">
+                      <p class="blogText">
+                        A good traveler has no fixed plans and is not intent on
+                        arriving.
+                      </p>
+                    </a>
+                    <div class="moreBlog">
+                      <a href="#readMore" class="readMore" id="readMore">
+                        <span class="readMoreText">Read More</span>
+                        <ion-icon
+                          name="arrow-forward-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="blogCard">
+                  <a href="#blogImage" class="blogImage" id="blogImage">
+                    <figure class="imageContainer">
+                      <img
+                        src="assets/images/blog-2.jpg"
+                        alt="mountain image"
+                        width="340"
+                        loading="lazy"
+                      />
+                    </figure>
+                  </a>
+                  <span class="blogDate">
+                    <ion-icon name="time-outline" class="clock"></ion-icon>
+                    <time datetime="12-04" class="cardText">04 Dec</time>
+                  </span>
+                  <div class="blogInfo">
+                    <div class="authorDiv">
+                      <div class="authorInfo">
+                        <figure class="authorAvatar">
+                          <img
+                            src="./assets/images/author-avatar.png"
+                            alt="author avatar"
+                            loading="lazy"
+                            width="30"
+                            height="30"
+                            class="authorImage"
+                          />
+                        </figure>
+                        <div class="authorIntro">
+                          <a
+                            href="#authorName"
+                            class="authorName"
+                            id="authorName"
+                          >
+                            Jony Bristow
+                          </a>
+                          <p class="authorRole">Admin</p>
+                        </div>
+                      </div>
+                      <time datetime="10:30" class="blogTime"> 10:30 AM </time>
+                    </div>
+                    <a href="#blogText" id="blogText">
+                      <p class="blogText">
+                        A good traveler has no fixed plans and is not intent on
+                        arriving.
+                      </p>
+                    </a>
+                    <div class="moreBlog">
+                      <a href="#readMore2" class="readMore" id="readMore2">
+                        <span class="readMoreText">Read More</span>
+                        <ion-icon
+                          name="arrow-forward-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+                <li class="blogCard">
+                  <a href="#blogImage" class="blogImage" id="blogImage">
+                    <figure class="imageContainer">
+                      <img
+                        src="./assets/images/blog-3.jpg"
+                        alt="mountain image"
+                        width="340"
+                        loading="lazy"
+                      />
+                    </figure>
+                  </a>
+                  <span class="blogDate">
+                    <ion-icon name="time-outline" class="clock"></ion-icon>
+                    <time datetime="12-04" class="cardText">04 Dec</time>
+                  </span>
+                  <div class="blogInfo">
+                    <div class="authorDiv">
+                      <div class="authorInfo">
+                        <figure class="authorAvatar">
+                          <img
+                            src="./assets/images/author-avatar.png"
+                            alt="author avatar"
+                            loading="lazy"
+                            width="30"
+                            height="30"
+                            class="authorImage"
+                          />
+                        </figure>
+                        <div class="authorIntro">
+                          <a
+                            href="#authorName"
+                            class="authorName"
+                            id="authorName"
+                          >
+                            Jony Bristow
+                          </a>
+                          <p class="authorRole">Admin</p>
+                        </div>
+                      </div>
+                      <time datetime="10:30" class="blogTime"> 10:30 AM </time>
+                    </div>
+                    <a href="#blogText" id="blogText">
+                      <p class="blogText">
+                        A good traveler has no fixed plans and is not intent on
+                        arriving.
+                      </p>
+                    </a>
+                    <div class="moreBlog">
+                      <a href="#readMore3" class="readMore" id="readMore3">
+                        <span class="readMoreText">Read More</span>
+                        <ion-icon
+                          name="arrow-forward-outline"
+                          aria-hidden="true"
+                        ></ion-icon>
+                      </a>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </article>
+      </main>
+
+      <!-- last section - footer -->
+      <footer class="footer">
+        <div class="container footerContainer">
+          <div class="footerTop">
+
+            <!-- top destination -->
+            <ul class="footerList">
+              <li>
+                <p class="footerTitle">Top Destination</p>
+              </li>
+              <li>
+                <a href="#footernav" class="footerNav" id="footerNav">Indonesia, Jakarta</a>
+              </li>
+              <li>
+                <a href="#footernav" class="footerNav" id="footerNav">Maldives, Malé</a>
+              </li>
+              <li>
+                <a href="#footernav" class="footerNav" id="footerNav">Australia, Canberra</a>
+              </li>
+              <li>
+                <a href="#footernav" class="footerNav" id="footerNav">Thailand, Bangkok</a>
+              </li>
+              <li>
+                <a href="#footernav" class="footerNav" id="footerNav">Morocco, Rabat</a>
+              </li>
+            </ul>
+
+            <!-- categories -->
+            <ul class="footerList">
+              <li>
+                <p class="footerTitle">Categories</p>
+              </li>
+              <li>
+                <a href="#footernav" class="footerNav" id="footerNav">Travel</a>
+              </li>
+              <li>
+                <a href="#footernav" class="footerNav" id="footerNav">Lifestyle</a>
+              </li>
+              <li>
+                <a href="#footernav" class="footerNav" id="footerNav">Fashion</a>
+              </li>
+              <li>
+                <a href="#footernav" class="footerNav" id="footerNav">Education</a>
+              </li>
+              <li>
+                <a href="#footernav" class="footerNav" id="footerNav">Food & Drink</a>
+              </li>
+            </ul>
+
+            <!-- quick links -->
+            <ul class="footerList">
+              <li>
+                <p class="footerTitle">Quick Links</p>
+              </li>
+              <li>
+                <a href="#footernav" class="footerNav" id="footerNav">About</a>
+              </li>
+              <li>
+                <a href="#footernav" class="footerNav" id="footerNav">Contact</a>
+              </li>
+              <li>
+                <a href="#footernav" class="footerNav" id="footerNav">Tours</a>
+              </li>
+              <li>
+                <a href="#footernav" class="footerNav" id="footerNav">Booking</a>
+              </li>
+              <li>
+                <a href="#footernav" class="footerNav" id="footerNav">Terms & Conditions</a>
+              </li>
+            </ul>
+
+            <!-- newsletter -->
+            <div class="footerList" id="newsletter">
+              <p class="footerTitle">Get A Newsletter</p>
+              <p class="footerText">
+                For the latest deals and tips, travel no further than your inbox.
+              </p>
+              <form action="" class="newsletterForm">
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  required
+                  placeholder="Email Address"
+                  class="email"
+                />
+                <button type="submit" class="button primaryButton footerButton">Suscribe</button>
+              </form>
+            </div>
+          </div>
+          <div class="footerBottom">
+              <a href="#footerLogo">
+                <h2 id="footerLogo" class="logo">TourBeta</h2>
+              </a>
+              <div class="copyright">
+                <p class="footerNav">
+                  &copy; 2022 <span><a href="http://github.com/joesef127" class="footerNav" target="_blank">Hive Creative</a></span>
+                </p>
+                <p class="footerText">All Rights Reserved</p>
+              </div>
+              <div class="socialIcons">
+                <ul class="socialList">
+                  <li>
+                    <a href="#facebook" id="facebook" class="socialIcon">
+                      <ion-icon name="logo-facebook"></ion-icon>
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a href="#twitter" class="socialIcon">
+                      <ion-icon name="logo-twitter"></ion-icon>
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a href="#instagram" id="instagram" class="socialIcon">
+                      <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a href="#linkedIn" id="linkedIn" class="socialIcon">
+                      <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                  </li>
+      
+                  <li>
+                    <a href="#github" id="github" class="socialIcon">
+                      <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+          </div>
+        </div>
+      </footer>
+    <a href="#top" class="scrollUp" dataScrollUp aria-label="Go To Top">
+      <ion-icon name="chevron-up-outline"></ion-icon>
+    </a>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
