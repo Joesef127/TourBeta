@@ -176,7 +176,7 @@ Subscribe
 
 TourBeta
 
-&copy; 2022 Joesef. All Rights Reserved
+&copy; 2022 Hive Creative. All Rights Reserved
 
 <ion-icon name="logo-facebook"></ion-icon>
 <ion-icon name="logo-twitter"></ion-icon>
