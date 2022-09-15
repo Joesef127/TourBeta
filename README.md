@@ -13,7 +13,7 @@
   - [Screenshot](#screenshot)
 - [My process](#my-process)
   - [Built with](#built-with)
-- [Acknowledgement] (#acknowledgement)
+- [Acknowledgement](#acknowledgement)
 - [License](#License)
 
 
